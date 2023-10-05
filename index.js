@@ -9,5 +9,8 @@ const knightMoves = (start, end) => {
 
   while (queue.length > 0) {
     const { x, y, path } = queue.shift();
+    if (x === end[0] && y === end[1]) {
+      const moves = path.map;
+    }
   }
 };
